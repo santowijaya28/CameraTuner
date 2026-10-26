@@ -37,6 +37,26 @@ The app is intentionally **not sandboxed** so it can open the USB device through
 ./scripts/build.sh --run    # builds and opens it
 ```
 
+### Install with make
+
+```bash
+make install
+```
+
+This builds the app and copies it to `~/Applications` without sudo. To install system-wide:
+
+```bash
+make install INSTALL_DIR=/Applications
+```
+
+Remove it again with:
+
+```bash
+make uninstall
+```
+
+Other targets: `make build`, `make run`, `make reinstall`, `make icon`, `make clean`, and `make help`.
+
 ### Regenerate the app icon
 
 ```bash
@@ -115,6 +135,7 @@ CameraTuner/
 ├── scripts/
 │   ├── build.sh
 │   └── make_icon.py
+├── Makefile
 ├── LICENSE
 └── README.md
 ```
