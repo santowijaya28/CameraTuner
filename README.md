@@ -129,8 +129,6 @@ If Camera Tuner is useful to you, you can support development on Ko-fi:
 
 Released under the [MIT License](LICENSE).
 
-Copyright © 2026 Santo Wijaya.
-
 ## Notes and limitations
 
 - Only standard UVC Camera Terminal / Processing Unit controls are supported. Vendor-specific extension units (for example, some Logitech or Razer features) are not.
