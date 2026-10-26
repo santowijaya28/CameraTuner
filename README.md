@@ -4,6 +4,11 @@
 
 # Camera Tuner
 
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
+  <a href="https://ko-fi.com/nuetasw"><img src="https://img.shields.io/badge/Ko--fi-Support-ff5e5b?logo=ko-fi&logoColor=white" alt="Support on Ko-fi"></a>
+</p>
+
 A native macOS SwiftUI app for tuning USB cameras. It combines:
 
 - **Hardware UVC controls** — brightness, contrast, saturation, hue, gain, gamma, sharpness, white balance, exposure, focus, zoom, backlight, and power-line frequency. These are sent straight to the camera over USB, so they also apply in Google Meet, Zoom, OBS, QuickTime, etc.
@@ -106,11 +111,25 @@ CameraTuner/
 │   ├── Views/        SwiftUI interface
 │   └── Resources/    app icon
 ├── CameraTuner.xcodeproj
+├── .github/FUNDING.yml
 ├── scripts/
 │   ├── build.sh
 │   └── make_icon.py
+├── LICENSE
 └── README.md
 ```
+
+## Support
+
+If Camera Tuner is useful to you, you can support development on Ko-fi:
+
+[Support Camera Tuner on Ko-fi](https://ko-fi.com/nuetasw)
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+Copyright © 2026 Santo Wijaya.
 
 ## Notes and limitations
 

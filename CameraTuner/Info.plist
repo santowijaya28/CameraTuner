@@ -30,6 +30,8 @@
 	<string>Camera Tuner shows a live preview so you can tune camera image controls.</string>
 	<key>NSHighResolutionCapable</key>
 	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Santo Wijaya. MIT License.</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
